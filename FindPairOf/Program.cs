@@ -9,7 +9,6 @@ class Program
         if (n == 0 || ar == null)
             throw new ArgumentNullException("n, ar");
 
-
         int pairs;
         int previousItem = ar[0];
         int x = 0;

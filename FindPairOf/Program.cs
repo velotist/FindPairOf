@@ -13,14 +13,25 @@ class Program
         int previousItem = ar[0];
         int x = 0;
 
-        SortList(ar);
+        Array.Sort(ar);
 
         foreach (var item in ar)
         {
-            
-            if (item == previousItem)
-                itemList[x] = item;
-            x++;
+            Console.Write(item + " ");
+        }
+
+        // you could also do:
+        // SortList(ar);
+
+        for (int i = 1; i < ar.Length; i++)
+        {
+            if (ar[i] == ar[i - 1])
+            {
+                
+                x++;
+            }
+            else
+                break;
         }
 
         pairs = x % 2;
@@ -60,6 +71,6 @@ class Program
         int[] ar = Array.ConvertAll(Console.ReadLine().Split(' '), arTemp => Convert.ToInt32(arTemp));
         int result = SockMerchant(n, ar);
 
-        Console.WriteLine(result);
+        Console.WriteLine("\n" + "Anzahl Paare: {0}", result);
     }
 }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPairOf", "FindPairOf\FindPairOf.csproj", "{F3C52D3C-EBCD-4050-B032-A84A53BE352D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C52D3C-EBCD-4050-B032-A84A53BE352D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C52D3C-EBCD-4050-B032-A84A53BE352D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C52D3C-EBCD-4050-B032-A84A53BE352D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C52D3C-EBCD-4050-B032-A84A53BE352D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCA5300F-C1E8-4B0B-8B7A-6EE36C6AE512}
+	EndGlobalSection
+EndGlobal
